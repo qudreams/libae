@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <sys/types.h>
 #include <stdio.h>
-#include "asBuffer.h"
+#include "asbuffer.h"
 #include "zmalloc.h"
 
 asBuffer* asBufferCreate(size_t initSize) {

@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include "zmalloc.h"
 #include "ae.h"
-#include "asBuffer.h"
+#include "asbuffer.h"
 
 #define _TCP_OUTPUT_BUF_LEN (16*1024) /*16kb tcp output buffer*/
 #define _TCP_INPUT_BUF_LEN (16*1024) /*16kb tcp input buffer*/

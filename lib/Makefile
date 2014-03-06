@@ -6,7 +6,7 @@ CC=clang
 CFLAGS=-I. 
 CLFAGS+=-g
 
-OBJS=ae.o anet.o net.o zmalloc.o asBuffer.o
+OBJS=ae.o anet.o net.o zmalloc.o asbuffer.o
 
 .PHONY:all
 all:libae.a
@@ -22,8 +22,8 @@ net.o:net.c net.h
 	$(CC) $(CFLAGS) -c net.c
 zmalloc.o:zmalloc.c zmalloc.h
 	$(CC) $(CFLAGS) -c zmalloc.c
-asBuffer.o:asBuffer.c asBuffer.h zmalloc.c zmalloc.h
-	$(CC) $(CFLAGS) -c asBuffer.c
+asbuffer.o:asbuffer.c asbuffer.h zmalloc.c zmalloc.h
+	$(CC) $(CFLAGS) -c asbuffer.c
 
 .PHONY:clean
 clean:
