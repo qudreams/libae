@@ -20,11 +20,3 @@ tcpServer:main.c lib/libae.a
 clean:
 	@make -C ./lib clean
 	rm -rf *.o tcpServer
-
-
-
-
-
-
-
-
