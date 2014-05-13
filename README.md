@@ -13,7 +13,7 @@ Note:
 	source files of the libae is in directory lib,you can complie the library to use following directive:
 		make
 	It will generate a static library file 'libae.a' in directory 'lib'.
-	You can find the example in the source file main.c.
+	You can find the example in the source file example.c.
 	The example is a tcp server listening port 4096.
 	You can complile the example to use following directive.
 		make test
