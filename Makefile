@@ -13,8 +13,8 @@ libae.a:
 	@make -C ./lib 
 
 test:tcpServer
-tcpServer:main.c lib/libae.a
-	$(CC) $(CFLAGS) -o tcpServer main.c lib/libae.a
+tcpServer:example.c libae.a
+	$(CC) $(CFLAGS) -o tcpServer example.c lib/libae.a
 
 .PHONY:clean
 clean:
